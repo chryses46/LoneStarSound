@@ -4,8 +4,8 @@ angular.module('lss')
         $stateProvider
             .state('home', {
                 url: '/home',
-                controller: 'HomeController',
+                //controller: 'HomeController',
                 title: 'Home',
-                templateUrl: 'app/pgs/home.html'
+                templateUrl: 'app/pages/home.html'
             })
     })

@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="lss">
 <head>
 	<title>Lone Star Sound and Entertainment</title>
 	<!-- Style Sheets -->
-	<link rel="stylesheet" type="text/css" href="/css/vendor/reset.css">
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/vendor/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<!-- JavaScript Files -->
-	<script type="text/javascript" src="/js/vendor/angular-ui-router.min.js"></script>
-	<script type="text/javascript" src="/js/vendor/angular.min.js"></script>
+	<script src="assets/js/vendor/angular.min.js"></script>
+	<script src="assets/js/vendor/angular-ui-router.min.js"></script>
+	<!-- Angular -->
+	<script src="app/app.js"></script>
+	<script src="app/config/uiRouter.config.js"></script>
 </head>
 <body>
 	<div ui-view></div>
